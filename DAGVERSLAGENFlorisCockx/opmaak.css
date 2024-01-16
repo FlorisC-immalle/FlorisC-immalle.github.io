@@ -1,9 +1,40 @@
 body {
     margin: 0;
+    width: 100%;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    background-image: url("Foto%20gebouw%20gemeente.jpg");
+    background-size: cover;
+    height: 950px;
+}
+
+article section {
+    max-width: 600px;
+    text-align: left;
+    margin: 0 auto;
+    border: 2px solid #f4f4f4;
+    padding: 15px;
+    background-color: #f4f4f4;
+}
+
+article section .contactgegevens {
+    border: 2px solid #f4f4f4;
+    padding: 15px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 nav {
-    background-color: red;
+    background-color: #990011;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,8 +67,18 @@ header img {
 }
 
 footer {
-    background-color: darkgray;
-    color: white;
+    background-color: #464648;
+    color: #829093;
     text-align: center;
     padding: 10px;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+.contactgegevens {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactgegevens p {
+    margin: 5px 0; /* Add some space between paragraphs */
 }
