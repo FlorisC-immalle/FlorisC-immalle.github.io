@@ -12,12 +12,12 @@ article {
     background-color: white;
     background-image: url("Foto%20gebouw%20gemeente.jpg");
     background-size: cover;
-    height: 950px;
-    flex-direction: column; 
+    height: 1000px;
+    flex-direction: column;
 }
 
 article section {
-    max-width: 600px;
+    max-width: 700px;
     text-align: center;
     margin: 0 auto;
     border: 2px solid #f4f4f4;
@@ -82,4 +82,9 @@ footer {
 
 .contactgegevens p {
     margin: 5px 0;
+}
+
+article img{
+    display: inline-block;
+    margin: 10px;
 }
