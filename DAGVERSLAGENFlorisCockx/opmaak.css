@@ -50,7 +50,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav a {
@@ -87,4 +87,24 @@ footer {
 article img{
     display: inline-block;
     margin: 10px;
+}
+
+.gif{
+    position: absolute;
+    top: 6%;
+    left: -1%;
+    width: 100px;
+    height: auto;
+}
+
+.giff{
+    position: absolute;
+    top: 6%;
+    right: -1%;
+    width: 100px;
+    height: auto;
+}
+
+.dag :hover{
+    border-bottom: 2px solid #f4f4f4;
 }
